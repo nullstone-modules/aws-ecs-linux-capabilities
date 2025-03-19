@@ -1,0 +1,14 @@
+org_name: nullstone
+name: aws-ecs-linux-capabilities
+friendly_name: ECS Linux Capabilities
+description: Add linux kernel capabilities to the docker container
+category: capability
+subcategory: sidecars
+provider_types:
+    - aws
+platform: ecs
+subplatform: ec2
+type: ""
+appCategories:
+    - container
+is_public: true
