@@ -1,3 +1,3 @@
 output "cap_add" {
-  value = coalescelist(var.capabilities)
+  value = [for cap in coalescelist(var.capabilities) : { name = cap }]
 }
